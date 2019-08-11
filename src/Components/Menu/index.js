@@ -15,23 +15,22 @@ const [ close , setOpen ] = useState(false);
          </button>
          <nav className={close !== true ? 'hide' : 'show'}>
             <ul>
-                    <li>
-                        <a href="/">HOME</a>
-                    </li>
+							<li>
+									<a href="/">HOME</a>
+							</li>
+							<li>
+									<a href="/">About Me</a>
+							</li>
+							<li>
+									<a href="/">Portifolio</a>
+							</li>
 
-                    <li>
-                        <a href="/">About Me</a>
-                    </li>
-                    <li>
-                        <a href="/">Portifolio</a>
-                    </li>
-
-                    <li>
-                        <a href="/">Labs</a>
-                    </li>
-                    <li>
-                        <a href="/">Contact</a>
-                    </li>
+							<li>
+									<a href="/">Labs</a>
+							</li>
+							<li>
+									<a href="/">Contact</a>
+							</li>
             </ul>
         </nav>   
     </Container>

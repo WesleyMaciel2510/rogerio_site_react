@@ -38,7 +38,14 @@ export default function Social() {
     <Container>
         <nav>
             <ul>
-                {social.map(links => <li key={links.title}> <a href={links.url} target="blank" title={links.title}>{links.rede}</a></li>)} 
+                {social.map(links => 
+                    <li key={links.title}> 
+                        <a href={links.url} 
+                           target="blank"
+                            title={links.title}>{links.rede}
+                        </a>
+                    </li>
+                )} 
             </ul>
         </nav>
 

@@ -1,14 +1,15 @@
 import React from 'react';
-import GlobalStyle from  './styles/global' 
-import Header from './Components/Header'
-
-
+import GlobalStyle from  './styles/global' ;
+import Layouts from './layouts'
+import Routes from './routes'
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <GlobalStyle />
-    </div>
+    <>
+    <Layouts >
+      <Routes/>
+    </Layouts>
+    <GlobalStyle />
+    </>
   );
 }
 

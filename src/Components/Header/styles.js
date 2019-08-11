@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    position : fixed;
     display : flex;
     border :  1px solid #000;  
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    position : fixed;
     width: 100%;
+    top : 0;
 `;
