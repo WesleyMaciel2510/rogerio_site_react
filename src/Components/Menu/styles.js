@@ -16,8 +16,8 @@ export const Container = styled.div`
         transition : all 0.5s ;
         background : #fff;
         height : 100%;
-        width : 250px;
-        margin-top: 1px;
+        width : 355px;
+        margin-top: 2px;
         &.hide {
             visibility : hidden;
             left : -300px;
@@ -45,6 +45,9 @@ export const Container = styled.div`
                     &:hover {
                         transform: translate(28px, 0px);
                     }
+                }
+                &:last-child {
+                    border : none;
                 }
             }
         }

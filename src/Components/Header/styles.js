@@ -9,4 +9,11 @@ export const Container = styled.div`
     background: #fff;
     width: 100%;
     top : 0;
+    transition: all 0.5s;
+    &.true {
+        position : relative;
+        display : block;
+
+    }
+
 `;
